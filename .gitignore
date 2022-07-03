@@ -1,0 +1,10 @@
+# Folders
+node_modules
+vscode
+build
+
+# Environment Variables
+.env
+.pk
+.pem
+.pub

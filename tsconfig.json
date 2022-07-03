@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "resolveJsonModule": true // needed for loading local json files for spec.json specifically
+  },
+  "include": ["src", "app.ts"],
+  "exclude": ["node_modules"],
+  "typeRoots": ["types"]
+}
