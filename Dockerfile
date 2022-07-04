@@ -1,15 +1,8 @@
-FROM node:18
+FROM python:3.9-slim
 
-WORKDIR /api
+WORKDIR /src
+COPY requirements.txt ./
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-COPY package*.json ./
-COPY tsconfig.json ./
-COPY usersDB.json ./
-RUN npm ci
-
-COPY . .
-RUN npm run build
-
-CMD npm run start
-
+COPY . . 
 EXPOSE 3000

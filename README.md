@@ -2,7 +2,7 @@
 
 Welcome to the Schmidt Futures Frontend Engineering Challenge!
 
-If an applicant has issues with the docker image, they can be shared on this repo and run things locally or they can be provided the `userDB.json` file directly.
+If an applicant has issues with the docker image, they can be shared on this repo and run things locally or they can be provided the `MockDB` file directly.
 
 The google doc for this challenge is [available here](https://docs.google.com/document/d/1Hs8iKE__AlDmJokUU1z-y3nhhKd72JgMcK4hq_aGhGk).
 
@@ -22,7 +22,9 @@ Your challenge is to build a frontend feature that displays matches between user
 
 As part of the signup process users indicated the types of roles they are interested in. Similarly, organizations indicated their open opportunities (roles they are trying to fill). Matches were then generated between each opportunity and user interest through a Lvenshtein Distance algorithm. This generated a match level score from 0-100 where 100 indicates a perfect match between an open role and user interest.
 
-For the purposes of this challenge, you only need to create a feature that displays the data returned from the GET matches_by_user endpoint. However, it is conceivable that, in the future, other endpoints such as GET matches_by_organization could be implemented that would return similar JSON objects.
+For the purposes of this challenge, you only need to display data returned from one endpoint (either `GET matches_by_user` or `GET matches_by_org`).
+However, it is conceivable that, in the future, we would want to use both endpoints and you should take this into consideration with your design. 
+You may of course query both endpoints as you see fit if your design calls for it.
 
 Feel free to add (and ideally document!) any other features or functionalities that might make sense such as: filtering to a specific user or organization, paging results, implementing sorts or filters, beautifying with CSS, implementing tests, etc.
 
