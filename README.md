@@ -42,6 +42,9 @@ After submitting, we will schedule approximately 45-minutes for a presentation o
 
 ## Next Steps
 
+Ensure you have Docker installed on your machine.
+[Docker Desktop](https://docs.docker.com/desktop/) is recommended for all operating systems.
+
 ### Option A: pulling the docker image
 
 NOTE: If you have cloned this repo, you may skip to Docker & NPM
@@ -50,7 +53,10 @@ We have provisioned a docker container that you can pull down and run locally. T
 
 1. Download and install docker on your machine if you haven’t already
 2. Pull down our publicly available docker image: `schmidtfutures/matching-challenge-server`
-3. Run the docker image to spin up the local web server: `docker run -p 3000:3000 sf-frontend-challenge-api`
+3. Run the docker image to spin up the local web server using port 3000 from Docker Desktop or via the CLI:
+
+   `docker run -p 3000:3000 sf-frontend-challenge-api`
+
 4. Go to `localhost:3000/health` and verify that the server is running
 5. Check out the api docs at `localhost:3000/docs`
 
@@ -67,9 +73,6 @@ First, after cloning this repo install the needed npm packages.
 ```bash
 npm install
 ```
-
-Next, ensure you have Docker installed on your machine.
-[Docker Desktop](https://docs.docker.com/desktop/) is recommended for all operating systems.
 
 Once installed, execute the following commands from this repository's root directory:
 
