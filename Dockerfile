@@ -4,6 +4,7 @@ WORKDIR /api
 
 COPY package*.json ./
 COPY tsconfig.json ./
+COPY usersDB.json ./
 RUN npm ci
 
 COPY . .
