@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  api:
+    image: schmidtfutures/matching-challenge-server:latest
+    command:  uvicorn app.main:app --reload --workers 1 --host 0.0.0.0 --port 3000 
+    ports:
+      - 3000:3000
+    networks:
+      - test_network
+
+networks:
+  test_network:
+    driver: bridge
+  
