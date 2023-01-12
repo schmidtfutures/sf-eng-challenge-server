@@ -5,7 +5,7 @@ Welcome to the Schmidt Futures Frontend Engineering Challenge Server!
 To share with an applicant:
 
 1. Share the docker-compose.yml file with the applicant
-2. Instruct them to run `docker-compose up --build` in the same directory as the file.
+2. Instruct them to run `docker compose up --build` in the same directory as the file.
 3. This will run a server locally that accepts requests from any origin (no CORS issues)
 4. The applicant can then create their solution using the endpoints provided by the API
 
