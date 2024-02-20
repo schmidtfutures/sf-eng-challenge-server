@@ -1,6 +1,6 @@
 # frontend-engineering-challenge
 
-Welcome to the Schmidt Futures Frontend Engineering Challenge Server!
+Welcome to the Tekalo Frontend Engineering Challenge Server!
 
 To share with an applicant:
 
@@ -11,7 +11,7 @@ To share with an applicant:
 
 If an applicant has issues with the docker image, they can be shared on this repo directly and run things locally or they could be provided the `MockDB` file directly.
 
-The google doc for this challenge is [available here](https://docs.google.com/document/d/1Hs8iKE__AlDmJokUU1z-y3nhhKd72JgMcK4hq_aGhGk).
+The google doc for this challenge is [available here](https://docs.google.com/document/d/1Q1AC2YMQom7aFBAla0N_IIbLvwQExe_xSpMx7m_t4u0/edit?usp=sharing).
 
 ## Next Steps
 
@@ -30,7 +30,7 @@ We have provisioned a docker image for the API that you can pull down and run lo
 
 Enjoy the challenge - we look forward to seeing what you come up with!
 
-If you have any questions or run into any issues\*, please reach out to the team member who sent you the challenge or Josh Hendler (jhendler@schmidtfutures.com).
+If you have any questions or run into any issues\*, please reach out to the team member who sent you the challenge or Elsa Perakis (eperakis@schmidtfutures.com).
 
 ### Option B: Cloning the repo directly
 
